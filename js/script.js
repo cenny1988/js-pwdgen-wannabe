@@ -19,8 +19,10 @@ console.log(yourFavoriteColor)
 // Infine scrivi sulla pagina 
 //“La password assegnata è: 
 // nomecognomecolorepreferito21"
+let number = 21;
+let password = `${yourName}${yourSurname}${yourFavoriteColor}${number}`
 document.getElementById("my_box").innerHTML = 
 `La password assegnata &egrave;:
- ${yourName}${yourSurname}${yourFavoriteColor}21
+ ${password}
  `
  
